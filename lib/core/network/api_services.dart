@@ -1,24 +1,3 @@
-// import 'package:dio/dio.dart';
-
-// class ApiServices {
-//   ApiServices.internal() {
-//     _dio = Dio(
-//       BaseOptions(
-//         baseUrl: "https://wwww.weatherapi.com/",
-//         connectTimeout: const Duration(seconds: 10),
-//         receiveTimeout: const Duration(seconds: 10),
-//         headers: {'Content-Type': 'application/json'},
-//       ),
-//     );
-//   }
-
-//   static final ApiServices _instance = ApiServices.internal();
-
-//   late Dio _dio;
-
-//   static Dio get dio => _instance._dio;
-// }
-
 import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
