@@ -37,7 +37,6 @@ class TodayForecastSection extends StatelessWidget {
       ),
       child: Column(
         children: [
-          // Header Row
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             child: Row(
@@ -78,7 +77,6 @@ class TodayForecastSection extends StatelessWidget {
             ),
           ),
           Divider(color: Theme.of(context).colorScheme.secondary),
-          // Hourly List
           SizedBox(
             height: 160,
             child: ListView.builder(

@@ -8,7 +8,7 @@ class WeeklyForecastSection extends StatelessWidget {
 
   String formatDate(String dateStr) {
     DateTime date = DateTime.parse(dateStr);
-    return DateFormat.E().add_MMMd().format(date); // e.g. Mon, Nov 13
+    return DateFormat.E().add_MMMd().format(date);
   }
 
   @override
