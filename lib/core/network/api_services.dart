@@ -3,7 +3,9 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
 
-const String apiKey = "4ef0baf541804ad988573832250411";
+import 'secrets.dart';
+
+const String apiKey = Secrets.apiKey;
 
 class ApiServices {
   final String _baseUrl = "https://api.weatherapi.com/v1";
